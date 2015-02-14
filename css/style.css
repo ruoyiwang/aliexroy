@@ -2,6 +2,11 @@ body {
   /*text-align: center;*/
   font-family: 'Indie Flower';
   overflow:auto;
+	background-color: #E4FFFF;
+	background-image: -webkit-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
+	background-image: -moz-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
+	background-image: -ms-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
+	background-image: -o-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
 }
 
 .time_name {
