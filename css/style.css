@@ -2,36 +2,41 @@ body {
   /*text-align: center;*/
   font-family: 'Indie Flower';
   overflow:auto;
-	background-color: #E4FFFF;
-	background-image: -webkit-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
+	background-color: #F0FFFF;
+  text-align: center;
+  margin: auto;
+	/*background-image: -webkit-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
 	background-image: -moz-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
 	background-image: -ms-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
-	background-image: -o-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
+	background-image: -o-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);*/
 }
 
 .time_name {
-  display: block;
-  width: 50%;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
   color: pink;
-  font-size: 20px;
+  font-size: 30px;
+  width: 80px;
+  float: left;
+  margin-top: 60px;
+  margin-right: 10px;
+  bottom: 0px;
 }
 
 .time_time {
-  display: block;
-  text-align: right;
-  width: 50%;
+  font-size: 96px;
   float: left;
-  font-size: 60px;
-  bottom: 0;
+  width: 120px;
 }
 
 .time_container {
   clear: both;
-  height: 70px;
-  position: relative;
+  height: 110px;
+  width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div#picture{
+  text-align:center
 }
 
 #hours {
