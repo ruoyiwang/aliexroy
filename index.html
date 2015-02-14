@@ -1,42 +1,50 @@
 <!DOCTYPE HTML>
+<html>
 <head>
   <link href='http://fonts.googleapis.com/css?family=Indie+Flower|Crafty+Girls|Waiting+for+the+Sunrise' rel='stylesheet' type='text/css'>
 
   <meta charset="UTF-8">
   <title>Alie x Roy</title>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 </head>
 
 <body>
-  <div>
-    We've been Together for
+  <div id="days_div" class="time_container">
+    <div class="time_time" id="days">
+    </div>
+    <div class="time_name">
+      &nbspDays
+    </div>
   </div>
-  <div id="days">
-    0123 Days
-    <span class="time_name">
-      Days
-    </span>
+
+  <div id="hours_div" class="time_container">
+    <div class="time_time" id="hours">
+    </div>
+    <div class="time_name">
+      &nbsphours
+    </div>
   </div>
-  <div id="hours">
-    456 hours
-    <span class="time_name">
-      hours
-    </span>
+
+  <div id="minutes_div" class="time_container">
+    <div class="time_time" id="minutes">
+    </div>
+    <div class="time_name">
+      &nbspminutes
+    </div>
   </div>
-  <div id="minutes">
-    789
-    <span class="time_name">
-      minutes
-    </span>
-  </div>
-  <div id="seconds">
-    <span class="time_time">
-      xx
-    </span>
-    <span class="time_name">
-      seconds
-    </span>
+
+  <div id="seconds_div" class="time_container">
+    <div class="time_time" id="seconds">
+    </div>
+    <div class="time_name">
+      &nbspseconds
+    </div>
   </div>
 
 </body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="scripts/timer.js"></script>
+</html>
