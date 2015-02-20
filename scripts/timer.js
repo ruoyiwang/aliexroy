@@ -30,7 +30,7 @@ function timeDifference(laterdate,earlierdate) {
   duration.seconds = secondsDifference;
   // alert(minutesDifference+":"+secondsDifference);
   return duration;
-  console.log('difference = ' + daysDifference + ' day/s ' + hoursDifference + ' hour/s ' + minutesDifference + ' minute/s ' + secondsDifference + ' second/s ');
+  // console.log('difference = ' + daysDifference + ' day/s ' + hoursDifference + ' hour/s ' + minutesDifference + ' minute/s ' + secondsDifference + ' second/s ');
 }
 
 var laterdate = new Date();     // now
