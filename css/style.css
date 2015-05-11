@@ -2,7 +2,7 @@ body {
   /*text-align: center;*/
   font-family: 'Indie Flower';
   overflow:auto;
-	background-color: #F0FFFF;
+	background-color: #dddddd;
   text-align: center;
   margin: auto;
 	/*background-image: -webkit-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
@@ -12,7 +12,7 @@ body {
 }
 
 .time_name {
-  color: pink;
+  color: #3F3F4A;
   font-size: 30px;
   width: 80px;
   float: left;
@@ -36,21 +36,22 @@ body {
 }
 
 div#picture{
+  margin-top: 150px;
   text-align:center
 }
 
 #hours {
-  color:#B1C27A;
+  color:#E3A9CA;
 }
 
 #minutes {
-  color:#D1C68F;
+  color:#FCF1F7;
 }
 
 #seconds {
-  color:#9FA3E3;
+  color:#ffffff;
 }
 
 #days {
-  color:#51C0BF;
+  color:#CD7AA9;
 }
