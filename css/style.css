@@ -2,7 +2,7 @@ body {
   /*text-align: center;*/
   font-family: 'Indie Flower';
   overflow:auto;
-	background-color: #dddddd;
+	background-color: white;
   text-align: center;
   margin: auto;
 	/*background-image: -webkit-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
@@ -41,17 +41,17 @@ div#picture{
 }
 
 #hours {
-  color:#E3A9CA;
+  color:#B6B600;
 }
 
 #minutes {
-  color:#FCF1F7;
+  color:#E8E800;
 }
 
 #seconds {
-  color:#ffffff;
+  color:#ffff00;
 }
 
 #days {
-  color:#CD7AA9;
+  color:#CBFF00;
 }
