@@ -2,7 +2,7 @@ body {
   /*text-align: center;*/
   font-family: 'Indie Flower';
   overflow:auto;
-	background-color: white;
+	background-color: #333333;
   text-align: center;
   margin: auto;
 	/*background-image: -webkit-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
@@ -11,8 +11,12 @@ body {
 	background-image: -o-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);*/
 }
 
+picture{
+  margin: 10;
+}
+
 .time_name {
-  color: #3F3F4A;
+  color: white;
   font-size: 30px;
   width: 80px;
   float: left;
@@ -41,17 +45,17 @@ div#picture{
 }
 
 #hours {
-  color:#B6B600;
+  color:yellow;
 }
 
 #minutes {
-  color:#E8E800;
+  color:yellow;
 }
 
 #seconds {
-  color:#ffff00;
+  color:yellow;
 }
 
 #days {
-  color:#CBFF00;
+  color:yellow;
 }
