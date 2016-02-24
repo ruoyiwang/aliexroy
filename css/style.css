@@ -11,16 +11,12 @@ body {
 	background-image: -o-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);*/
 }
 
-picture{
-  margin: 10;
-}
-
 .time_name {
   color: white;
   font-size: 30px;
   width: 80px;
   float: left;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-right: 10px;
   bottom: 0px;
 }
@@ -40,7 +36,7 @@ picture{
 }
 
 div#picture{
-  margin-top: 150px;
+  margin-top: 30px;
   text-align:center
 }
 
