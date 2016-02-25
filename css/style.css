@@ -1,57 +1,32 @@
-body {
-  /*text-align: center;*/
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: 'Indie Flower';
-  overflow:auto;
-	background-color: #333333;
-  text-align: center;
-  margin: auto;
-	/*background-image: -webkit-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
-	background-image: -moz-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
-	background-image: -ms-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);
-	background-image: -o-radial-gradient(70%, circle, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.1) 40%);*/
+	background-color: #343535;
 }
 
 .time_name {
   color: white;
-  font-size: 30px;
-  width: 80px;
-  float: left;
-  margin-top: 30px;
-  margin-right: 10px;
-  bottom: 0px;
+  font-size: 2em;
+  margin: 0em 1em 0em 1em;
 }
 
 .time_time {
-  font-size: 96px;
-  float: left;
-  width: 120px;
+  font-size: 5em;
+  width: auto;
+  color:yellow;
 }
 
 .time_container {
-  clear: both;
-  height: 110px;
-  width: 900px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-div#picture{
-  margin-top: 30px;
-  text-align:center
-}
-
-#hours {
-  color:yellow;
-}
-
-#minutes {
-  color:yellow;
-}
-
-#seconds {
-  color:yellow;
-}
-
-#days {
-  color:yellow;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: baseline;
 }
